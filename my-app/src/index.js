@@ -55,7 +55,7 @@ class App extends React.Component {
                     speed={0.5}
                     style={styles}
                     onClick={() => this.refs.parallax.scrollTo(0)}>
-                    <Footer/>
+                    {/* <Footer/> */}
                 </Parallax.Layer>
 
             </Parallax>
